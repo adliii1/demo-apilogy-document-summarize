@@ -449,7 +449,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const formData = new FormData();
     formData.append("file", file);
 
-    const apiKey = "vkTPcueW8hPrZoKyZ17h4F2H5eqyznUp";
+    const apiKey = "YOUR-API-KEY";
     const baseUrl =
       "https://telkom-ai-dag.api.apilogy.id/LLama3Summarize/0.0.4/telkomllm/summarize_file?summary_detail=0";
 
